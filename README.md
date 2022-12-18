@@ -5,7 +5,7 @@
 [![Awesome Flutter](https://img.shields.io/badge/Platform-Android_iOS-blue.svg?longCache=true&style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
 
-Rename Flutter applications in one command.
+Rename Flutter applications in one command. (this fork fixed sound null safety bugs)
 
 > This package assumes that you created your flutter project using `flutter create` command line.
 
@@ -22,6 +22,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_rename_app_plus:
+    git:
+        url: https://github.com/dxgx/flutter_rename_app_plus
 ```
 
 ### Define Settings
